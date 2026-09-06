@@ -1,0 +1,42 @@
+group,role,point_name,sensor_id,quantity_kind,unit,value_02_09,observed_utc,room_uuid
+heating flow,measure,H'HPlt320'HPlt32000'TFl401,e627ac42-56a6-4251-8639-23fccad35b4f,Temperature,Celsius,48.86000061035156,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+heating return,measure,H'HPlt320'HPlt32010'TRt501,b21fa682-6ef8-4391-894a-180c8017db68,Temperature,Celsius,18.760000228881836,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+outdoor temp,measure,H'HPlt320'HPlt32030'TOa,903494ca-3e4a-4655-8d9d-bae0433e278f,Temperature,Celsius,25.15999984741211,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+heating setpoint,measure,H'HPlt320'HPlt32030'SpDtr,17460926-fdb0-43d0-97f7-09419a49d99d,Temperature,Celsius,19.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+chilled water flow,measure,C'CPlt350'Isvann'TFl401,5f9b1bfe-b0ec-4db1-9e09-2144921029c3,Temperature,Celsius,9.800000190734863,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+chilled water return,measure,C'CPlt350'Isvann'TRt501,51223f7e-0ecd-4ec3-9d22-f2fe71f72e29,Temperature,Celsius,11.559999465942383,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+cooling 370 flow,measure,C'CPlt370'CPlt37040'TFl401,e5ab3b77-519c-4d29-87e4-5a321e2ab480,Temperature,Celsius,9.920000076293945,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+cooling 370 setpoint,measure,C'CPlt370'CPlt37010'SpC,afcb0b89-5bef-4de4-a1d2-ae12b263bc5b,Temperature,Celsius,12.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+chiller run state,context,C'CPlt350'KMIK001'OpMod1A,de0e4def-523b-447f-abdb-4d67ab24b80e,State,BooleanDetection,0.0,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+chiller run state,context,C'CPlt350'KMIK002'OpMod2B,e6d086cc-104d-40f9-a214-ad6cfb3927eb,State,BooleanDetection,0.0,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+chiller run state,context,C'CPlt350'KMIK001'OpModSKM,bf3a3a7c-b161-4915-9f33-457e1a5dcb69,State,BooleanDetection,1.0,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+chiller run state,context,C'CPlt350'KMIK001'OpMod1B,fb1bb904-230d-4c88-8f81-1d4330dc77fe,State,BooleanDetection,1.0,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+chiller run state,context,C'CPlt350'KMIK002'OpMod2A,57115a91-3aa4-4bae-821d-3e828196fc84,State,BooleanDetection,1.0,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360018'FanEx'VlmC'VlmFl,40008bd1-18b6-42f9-8ff8-63332b4bc374,Flow,M3-PER-HR,0.0,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360018'FanSu'VlmC'VlmFl,f81e20a8-7df8-40e3-8aa3-3311cf08f40a,Flow,M3-PER-HR,1350.7012939453125,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360015'FanEx'VlmC'VlmFl,5c42e383-b021-4a32-a6f5-2df42025b969,Flow,M3-PER-HR,11807.779296875,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360007'FanSu'VlmC'VlmFl,845dc633-e6cb-4cfa-aa5a-d26db322cfeb,Flow,M3-PER-HR,0.0,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360016'FanSu'VlmC'VlmFl,9de527f1-1ed0-4550-9a66-5a265f02a26d,Flow,M3-PER-HR,0.0,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360006'FanEx'VlmC'VlmFl,b93243f9-4e93-467d-bdf0-8a09a47d7ab3,Flow,M3-PER-HR,18785.216796875,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360006'FanSu'VlmC'VlmFl,033bd7f3-abe8-4e2e-bf4c-decbf7eb526a,Flow,M3-PER-HR,24358.841796875,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360015'FanSu'VlmC'VlmFl,82df5d13-1118-4474-9833-8460a990524b,Flow,M3-PER-HR,4452.44384765625,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360016'FanEx'VlmC'VlmFl,bc4c4a5b-8edd-4794-96a3-4a096692f65a,Flow,M3-PER-HR,0.0,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360007'FanEx'VlmC'VlmFl,d17bfa04-ca15-4257-ab27-fcb21e433d04,Flow,M3-PER-HR,0.0,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360014'FanEx'VlmC'VlmFl,ba431e75-1639-4f28-8c2c-79eba1187c80,Flow,M3-PER-HR,0.0,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360005'FanSu'VlmC'VlmFl,2cd52401-2b46-4a42-8355-791c5d692c79,Flow,M3-PER-HR,21094.07421875,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360002'FanEx'VlmC'VlmFl,76b6ce34-17ba-4fa2-82fa-92fe07a98324,Flow,M3-PER-HR,19638.78125,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360004'FanEx'VlmC'VlmFl,d9cdfc6c-0814-4704-a201-a826baa4b1ce,Flow,M3-PER-HR,18616.79296875,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360002'FanSu'VlmC'VlmFl,1369238f-0f68-43cc-9591-6f48d31efa6b,Flow,M3-PER-HR,19880.462890625,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360005'FanEx'VlmC'VlmFl,63fe9f83-02ca-43b0-aef4-eefe9ef0d728,Flow,M3-PER-HR,14630.435546875,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360004'FanSu'VlmC'VlmFl,8e100ea9-7552-45de-8dd8-dd72e97909c9,Flow,M3-PER-HR,18437.001953125,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360003'FanEx'VlmC'VlmFl,25e15b5c-a48a-4103-a9aa-3d9a4ccff6f7,Flow,M3-PER-HR,13429.384765625,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360014'FanSu'VlmC'VlmFl,afbf74e2-2066-497a-8b59-275f6753d3a2,Flow,M3-PER-HR,0.0,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+AHU flow,context,A'Ahu360003'FanSu'VlmC'VlmFl,0c198363-13e6-45c9-b8d4-6de3aea93757,Flow,M3-PER-HR,16363.3525390625,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+free cooling,context,frikjoling_startmodus,e57005ec-ba1e-452c-8634-a8a7e7574d1b,State,Index,1.0,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+free cooling,context,RT501_b_frikjoling,7edd8021-93c9-4d53-80f5-52ef7ea66dc9,Temperature,Celsius,20.0,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+free cooling,context,Frikjoling,cef36778-d9a7-4d55-a9e9-5ae73f2de658,State,BooleanDetection,0.0,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+free cooling,context,RT901_b_frikjoling_max_utetemperatur,05543d61-c6a0-4022-af42-6571b8ed85aa,Temperature,Celsius,19.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+free cooling,context,frikjoling_modus,e7fd615a-dbdc-4a80-bdc9-57710e9fa47a,State,Index,2.0,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+free cooling,context,RT501_b_frikjoling,49690606-584d-4d5e-8310-8500a90ee6e2,Temperature,Celsius,20.0,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+free cooling,context,Frikjoling,ddba4f78-c406-4def-8bb5-b45e64a0609d,State,BooleanDetection,0.0,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+free cooling,context,RT901_b_frikjoling_max_utetemperatur,b8084c9d-0190-429e-8a9f-77988e56abab,Temperature,Celsius,19.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272

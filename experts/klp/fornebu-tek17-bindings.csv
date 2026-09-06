@@ -1,0 +1,106 @@
+group,role,point_name,sensor_id,quantity_kind,unit,value_02_09,observed_utc,room_uuid
+room temperature,measure,-OU001-RB601 SpaceTemp,b983799d-832f-4b66-b285-68b8b81f5990,Temperature,Celsius,18.284114837646484,2026-09-02T06:34:54,45732ea0-5a90-4bfa-bcb6-367e616b4a33
+room temperature,measure,-OU001-RB602 SpaceTemp,b2dc378e-0a8f-40f6-b55b-d34666589910,Temperature,Celsius,19.80019187927246,2026-09-02T06:34:54,45732ea0-5a90-4bfa-bcb6-367e616b4a33
+room temperature,measure,-OU001-RB603 SpaceTemp,7745df82-62ee-4ffe-9283-abd97c1953ec,Temperature,Celsius,19.23587417602539,2026-09-02T06:34:54,45732ea0-5a90-4bfa-bcb6-367e616b4a33
+room temperature,measure,OU001-RT601 SpaceTemp,7a0efe4e-aa6f-4c98-a3d8-023e4c5fc9b5,Temperature,Celsius,22.315584182739258,2026-09-02T06:34:51,d01ec8b5-d550-48d8-bc40-60d123ad1e70
+room temperature,measure,OU001-RT601 SpaceTemp,7bbaddba-f917-4745-a0b9-8b5c067eb8bf,Temperature,Celsius,22.53955078125,2026-09-02T06:34:52,bc50b5aa-047e-4bbc-9e75-0b077f81f750
+room temperature,measure,OU001-RT601 SpaceTemp,cc6cdff9-14f8-4d18-b1e0-669ab2759020,Temperature,Celsius,22.885883331298828,2026-09-02T06:34:53,4a2d0c79-49a7-42cd-b123-2bd34f19f004
+room temperature,measure,OU001-RT601 SpaceTemp,5d13f448-5cf8-4372-876b-a0b82f9f89aa,Temperature,Celsius,24.640003204345703,2026-09-02T06:34:52,fcad4793-5fef-4bdf-af45-d98f23ebd675
+room temperature,measure,OU001-RT601 SpaceTemp,d1f2ba23-aff7-4c3c-bcd1-6ae1511a360f,Temperature,Celsius,23.349029541015625,2026-09-02T06:34:53,b81c6dcd-ad9d-4152-bb9a-c33957fde4e7
+room temperature,measure,OU001-RT601 SpaceTemp,78f6c0df-30e6-483f-b61d-083df19acd9f,Temperature,Celsius,22.51133155822754,2026-09-02T06:34:54,6153a184-cdc5-4f82-b350-6d844be24312
+room temperature,measure,OU001-RT601 SpaceTemp,60002b08-c5a8-4f34-a709-c63e6c692010,Temperature,Celsius,22.74664878845215,2026-09-02T06:34:51,d7de2669-15eb-4f6c-a2d0-6ddd637a4c8e
+room temperature,measure,OU001-RT601 SpaceTemp,9b88df10-e395-49f6-bc3d-0de8599c6b78,Temperature,Celsius,22.96031379699707,2026-09-02T06:34:54,d7de2669-15eb-4f6c-a2d0-6ddd637a4c8e
+room temperature,measure,OU001-RT601 SpaceTemp,76a83c28-57ae-45de-9421-731bc8501050,Temperature,Celsius,26.368133544921875,2026-09-02T06:34:51,acc0e1f0-96f9-41fc-949b-1756e75cdaf2
+room temperature,measure,OU001-RT601 SpaceTemp,8600c778-3e02-4efe-8e14-52664b93b566,Temperature,Celsius,23.15125846862793,2026-09-02T06:34:54,40623e52-098e-4c07-bbb1-e32d90bd612e
+room temperature,measure,OU001-RT601 SpaceTemp,bbc0bd20-0410-4977-b7fe-1fa99e145406,Temperature,Celsius,24.399784088134766,2026-09-02T06:34:54,7ce29a10-da35-4391-9ba5-927286f51f06
+room temperature,measure,OU001-RT601 SpaceTemp,f567dc09-cfcd-4db4-8b84-c3217a078dad,Temperature,Celsius,23.590396881103516,2026-09-02T06:34:54,6a814b5a-de80-4360-957d-d35f0b1b28ce
+room temperature,measure,OU001-RT601 SpaceTemp,5e9f5b3c-17de-40dd-b7c6-c87c69b1d157,Temperature,Celsius,24.164541244506836,2026-09-02T06:34:54,5b3ab8a1-f9b4-4c50-bc3f-8c3498ad98bb
+room temperature,measure,OU001-RT601 SpaceTemp,6fbc77a7-2339-4080-9ff7-7883ec446620,Temperature,Celsius,24.217853546142578,2026-09-02T06:34:52,7c34ab73-d420-4610-857b-ce5f322d34b2
+room temperature,measure,OU001-RT601 SpaceTemp,3eda9eb4-3e7f-485b-9fff-1413242c2827,Temperature,Celsius,24.315948486328125,2026-09-02T06:34:52,8b8f54cd-bd17-42de-9e3e-bbb4e9227bc8
+room temperature,measure,OU001-RT601 SpaceTemp,4103a5a4-c2e6-4c8f-bc8d-77550ad4d16d,Temperature,Celsius,23.14010238647461,2026-09-02T06:34:53,6d7ef6fd-b2c6-458c-b008-b9c80e94cf22
+room temperature,measure,OU001-RT601 SpaceTemp,f298348d-5e45-43d8-aa05-41ade454b5aa,Temperature,Celsius,22.7836971282959,2026-09-02T06:34:52,bac45d14-54c2-4611-9cd4-5f8f8b1a37f0
+room temperature,measure,OU001-RT601 SpaceTemp,1ce159b3-5db8-4dca-ac42-6737b05ebd35,Temperature,Celsius,24.26702880859375,2026-09-02T06:34:53,f4319738-3bf9-41d1-8437-2a5aac98457e
+room temperature,measure,OU001-RT601 SpaceTemp,58579848-1857-42b8-8b82-117fcc75e4e7,Temperature,Celsius,23.344209671020508,2026-09-02T06:34:54,1e3772d6-80d1-429c-816a-c4179d810710
+room temperature,measure,OU001-RT601 SpaceTemp,0f3d04a1-e5f5-4366-b2bd-f8c93dc8e253,Temperature,Celsius,23.392562866210938,2026-09-02T06:34:52,b39766a6-263b-4ee6-ae23-c710b56d558f
+room temperature,measure,OU001-RT601 SpaceTemp,e456d522-b0db-4e38-9cb9-c989cfa767b1,Temperature,Celsius,23.190509796142578,2026-09-02T06:34:52,b39766a6-263b-4ee6-ae23-c710b56d558f
+room temperature,measure,OU001-RT601 SpaceTemp,537d6b95-d749-41c0-bcb2-08079bf88298,Temperature,Celsius,20.078222274780273,2026-09-02T06:34:55,45732ea0-5a90-4bfa-bcb6-367e616b4a33
+room temperature,measure,OU001-RT601 SpaceTemp,81ec543e-141d-44dd-b98e-aa8c27dfd2b0,Temperature,Celsius,22.849857330322266,2026-09-02T06:34:53,3ddc42b8-5772-4edb-b584-fa8c40209fc5
+room temperature,measure,OU001-RT601 SpaceTemp,9d58930d-d1f4-44d3-9eff-544c0e4f2065,Temperature,Celsius,23.64474868774414,2026-09-02T06:34:51,389830f2-5715-4089-90ba-83d19b3d2696
+room temperature,measure,OU001-RT601 SpaceTemp,2e6ed285-5634-4d38-8861-74cde3c78998,Temperature,Celsius,23.96590232849121,2026-09-02T06:34:54,389830f2-5715-4089-90ba-83d19b3d2696
+room temperature,measure,OU001-RT601 SpaceTemp,61caa988-e2a3-47f0-9405-3361947642ac,Temperature,Celsius,22.64203643798828,2026-09-02T06:34:53,676682be-66c4-4a39-adf6-38de2f40f30e
+room temperature,measure,OU001-RT601 SpaceTemp,2fa0ca97-e4dc-4ebf-8bd0-19e52f676a31,Temperature,Celsius,23.925025939941406,2026-09-02T06:34:53,d1062339-227b-4e5b-a9a3-18ae8cd31702
+room temperature,measure,OU001-RT601 SpaceTemp,e2cef0c5-fa6a-46b9-a8e6-95cf93ed9303,Temperature,Celsius,22.31998634338379,2026-09-02T06:34:52,c0300733-c091-484e-9883-4eb1978e4a5b
+room temperature,measure,OU001-RT601 SpaceTemp,4458dbb4-dbc2-4f7a-92a5-5ec4e6c914ab,Temperature,Celsius,22.530685424804688,2026-09-02T06:34:53,c0300733-c091-484e-9883-4eb1978e4a5b
+room temperature,measure,OU001-RT601 SpaceTemp,556d79a8-24d7-4456-ae9a-85ef1566b80a,Temperature,Celsius,22.526029586791992,2026-09-02T06:34:52,7b214840-789c-414e-9775-d13920afc6b8
+room temperature,measure,OU001-RT601 SpaceTemp,2a3c47be-38a2-4540-9eae-690f819774f4,Temperature,Celsius,22.906612396240234,2026-09-02T06:34:54,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+room temperature,measure,OU001-RT601 SpaceTemp,356293e0-9221-460d-82b4-1b3645bd69a6,Temperature,Celsius,22.242626190185547,2026-09-02T06:34:52,aa748755-1afd-4cc8-ac61-81cdbb4a7a0d
+room temperature,measure,OU001-RT601 SpaceTemp,99fbdd66-3732-4fa8-a079-a9183f8061f2,Temperature,Celsius,23.528940200805664,2026-09-02T06:34:51,ab6c0b75-c380-4b56-b07c-ff20456e73e4
+room temperature,measure,OU001-RT601 SpaceTemp,b841e7a5-aac9-44d6-939c-0c71681b51f8,Temperature,Celsius,22.144428253173828,2026-09-02T06:34:54,faf8f05d-e0bf-4497-b096-cbd0adbdc1ee
+room temperature,measure,OU001-RT601 SpaceTemp,b9fb5001-4929-4ebf-b6a5-e60dccbef18d,Temperature,Celsius,23.98992919921875,2026-09-02T06:34:52,eb975959-5de6-4f22-867d-32cec546577e
+room temperature,measure,OU001-RT601 SpaceTemp,c8472cdb-f08e-48b4-9160-d2d627bcd8c7,Temperature,Celsius,22.381141662597656,2026-09-02T06:34:53,dba84f43-511e-4087-84e8-91b9a9dc27a0
+room temperature,measure,OU001-RT601 SpaceTemp,6ac81185-cfa4-41f1-b303-9d40ce5c96dc,Temperature,Celsius,23.3239688873291,2026-09-02T06:34:52,7fedbd71-acac-451c-b7fb-02834d6b8b1f
+room temperature,measure,OU001-RT602 SpaceTemp,4fdbc973-9413-4d63-ae58-cdc776ca5313,Temperature,Celsius,23.462636947631836,2026-09-02T06:34:52,7c34ab73-d420-4610-857b-ce5f322d34b2
+room temperature,measure,OU001-RT602 SpaceTemp,5ad343ba-0e3d-4fd3-8999-c279ba46c14b,Temperature,Celsius,21.29627227783203,2026-09-02T06:34:55,45732ea0-5a90-4bfa-bcb6-367e616b4a33
+room temperature,measure,OU001-RT602 SpaceTemp,3718bef1-41ca-4737-a2e7-970226b369ad,Temperature,Celsius,22.49917221069336,2026-09-02T06:34:54,faf8f05d-e0bf-4497-b096-cbd0adbdc1ee
+room temperature,measure,OU001-RT602 SpaceTemp,6c44ba46-b220-4396-9d58-c01cc9edb0d6,Temperature,Celsius,23.138517379760742,2026-09-02T06:34:52,eb975959-5de6-4f22-867d-32cec546577e
+room temperature,measure,OU001-RT603 SpaceTemp,ce84dca8-328a-4613-9e27-edc3b12bcd22,Temperature,Celsius,22.08574104309082,2026-09-02T06:34:54,45732ea0-5a90-4bfa-bcb6-367e616b4a33
+presence,context,-OU001-RB601 Motion,2658236b-28aa-4944-95a8-e710a4bcb54d,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,45732ea0-5a90-4bfa-bcb6-367e616b4a33
+presence,context,-OU001-RB602 Motion,1762086a-8701-420d-a481-800944a45d6a,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,45732ea0-5a90-4bfa-bcb6-367e616b4a33
+presence,context,-OU001-RB603 Motion,f634cf95-1fd0-4bd4-b5f8-b48f3a6d3dbb,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,45732ea0-5a90-4bfa-bcb6-367e616b4a33
+presence,context,OU001-RT601 Motion,6b6d0193-98c4-4b88-b57a-43c28ca41391,Presence,BooleanDetection,1.0,2026-09-02T06:34:51,d01ec8b5-d550-48d8-bc40-60d123ad1e70
+presence,context,OU001-RT601 Motion,6064acf2-3f16-459e-b71d-d914d17ceb32,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,bc50b5aa-047e-4bbc-9e75-0b077f81f750
+presence,context,OU001-RT601 Motion,1a864781-67ff-48bf-8076-cd8e42a87ddd,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,bc50b5aa-047e-4bbc-9e75-0b077f81f750
+presence,context,OU001-RT601 Motion,a28a4abe-6ab9-4196-9287-b4d7d7403071,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,bc50b5aa-047e-4bbc-9e75-0b077f81f750
+presence,context,OU001-RT601 Motion,a190d6a1-ee7f-4212-8290-3d64c4203282,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,4a2d0c79-49a7-42cd-b123-2bd34f19f004
+presence,context,OU001-RT601 Motion,19331ec9-afbc-4cdf-a7a0-20e5f5a35303,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,fcad4793-5fef-4bdf-af45-d98f23ebd675
+presence,context,OU001-RT601 Motion,70a29eb8-fbab-42ed-aba0-5b6747f76f9c,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,b81c6dcd-ad9d-4152-bb9a-c33957fde4e7
+presence,context,OU001-RT601 Motion,d5a3b9a0-951f-4f29-9a08-5cda8d9c63d8,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,6153a184-cdc5-4f82-b350-6d844be24312
+presence,context,OU001-RT601 Motion,62281be0-740b-4f6a-85a9-9329bd29f280,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,6153a184-cdc5-4f82-b350-6d844be24312
+presence,context,OU001-RT601 Motion,88be5531-dba7-409b-8329-484182ac969c,Presence,BooleanDetection,0.0,2026-09-02T06:34:51,d7de2669-15eb-4f6c-a2d0-6ddd637a4c8e
+presence,context,OU001-RT601 Motion,d85123d6-2c58-4cec-a7f5-ab3f993c022f,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,d7de2669-15eb-4f6c-a2d0-6ddd637a4c8e
+presence,context,OU001-RT601 Motion,4a240e11-d844-4d45-a23b-7639fdc7851e,Presence,BooleanDetection,1.0,2026-09-02T06:34:51,acc0e1f0-96f9-41fc-949b-1756e75cdaf2
+presence,context,OU001-RT601 Motion,cff582f4-c22b-41c9-8990-17be962ec390,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,40623e52-098e-4c07-bbb1-e32d90bd612e
+presence,context,OU001-RT601 Motion,c67a6ab3-64a5-414b-839b-a85db608979b,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,40623e52-098e-4c07-bbb1-e32d90bd612e
+presence,context,OU001-RT601 Motion,04809dcb-3f7c-404d-a140-1b6466b2c714,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,0bf4babf-210c-47c6-9103-81d245246bc9
+presence,context,OU001-RT601 Motion,8b9a4f31-cef9-4232-9a64-0fc3afdb0b41,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,7ce29a10-da35-4391-9ba5-927286f51f06
+presence,context,OU001-RT601 Motion,c61f4e58-fc6e-4303-a68a-ebc07bf73562,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,6a814b5a-de80-4360-957d-d35f0b1b28ce
+presence,context,OU001-RT601 Motion,815a94df-15ca-4f6c-848d-6e49f79382c5,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,5b3ab8a1-f9b4-4c50-bc3f-8c3498ad98bb
+presence,context,OU001-RT601 Motion,2401015f-ba47-411a-b908-7fffc51143e9,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,7c34ab73-d420-4610-857b-ce5f322d34b2
+presence,context,OU001-RT601 Motion,e2dc7a2f-5890-4d5d-937d-a1337280794f,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,7c34ab73-d420-4610-857b-ce5f322d34b2
+presence,context,OU001-RT601 Motion,cded52be-5959-41a3-87a6-0207fce7b99a,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,8b8f54cd-bd17-42de-9e3e-bbb4e9227bc8
+presence,context,OU001-RT601 Motion,b01a47b6-6400-4735-ad7a-e8a2c605da57,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,6d7ef6fd-b2c6-458c-b008-b9c80e94cf22
+presence,context,OU001-RT601 Motion,64b6a003-65df-4c3d-bbd8-ca12f5f04aee,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,bac45d14-54c2-4611-9cd4-5f8f8b1a37f0
+presence,context,OU001-RT601 Motion,6388fc8e-fd3b-4274-8efb-3138abecc440,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,f4319738-3bf9-41d1-8437-2a5aac98457e
+presence,context,OU001-RT601 Motion,8a432eac-aeed-40a1-a886-fbc427062da0,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,1e3772d6-80d1-429c-816a-c4179d810710
+presence,context,OU001-RT601 Motion,b47ae127-6456-4a77-b791-35e893406a78,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,b39766a6-263b-4ee6-ae23-c710b56d558f
+presence,context,OU001-RT601 Motion,39f9fc92-cedd-471e-a01a-f9d628f9f8a6,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,b39766a6-263b-4ee6-ae23-c710b56d558f
+presence,context,OU001-RT601 Motion,331bd2c0-00c1-45bb-80cc-c31e7f1f059d,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,b39766a6-263b-4ee6-ae23-c710b56d558f
+presence,context,OU001-RT601 Motion,4fdb8280-9242-44c5-a85f-31b446632782,Presence,BooleanDetection,0.0,2026-09-02T06:34:51,b39766a6-263b-4ee6-ae23-c710b56d558f
+presence,context,OU001-RT601 Motion,0b7ad9ee-d785-4f69-b7f6-254490e1f212,Presence,BooleanDetection,0.0,2026-09-02T06:34:55,45732ea0-5a90-4bfa-bcb6-367e616b4a33
+presence,context,OU001-RT601 Motion,f4de26dc-fa69-4f50-971e-cf9271fd03ae,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,3ddc42b8-5772-4edb-b584-fa8c40209fc5
+presence,context,OU001-RT601 Motion,a426471e-00ec-426c-aa2d-1d06b4bc5df4,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,3ddc42b8-5772-4edb-b584-fa8c40209fc5
+presence,context,OU001-RT601 Motion,73640e3e-240f-4f70-8490-ea658422b611,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,3ddc42b8-5772-4edb-b584-fa8c40209fc5
+presence,context,OU001-RT601 Motion,6ab8c9a3-043b-4aec-a2d6-eccc9e80de16,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,389830f2-5715-4089-90ba-83d19b3d2696
+presence,context,OU001-RT601 Motion,0ddb0a42-2e1c-474a-b585-e12243bae64f,Presence,BooleanDetection,0.0,2026-09-02T06:34:51,389830f2-5715-4089-90ba-83d19b3d2696
+presence,context,OU001-RT601 Motion,d929349a-6d87-4ded-80a1-68758b0b09c4,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,676682be-66c4-4a39-adf6-38de2f40f30e
+presence,context,OU001-RT601 Motion,0233d332-64b9-4514-aeee-0e69fd027e0c,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,d1062339-227b-4e5b-a9a3-18ae8cd31702
+presence,context,OU001-RT601 Motion,19a94eaa-a59c-4ee6-a797-2346c47d47b0,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,d1062339-227b-4e5b-a9a3-18ae8cd31702
+presence,context,OU001-RT601 Motion,3459dc8e-f808-457a-bfe6-aba095f87fd3,Presence,BooleanDetection,0.0,2026-09-02T06:34:51,d1062339-227b-4e5b-a9a3-18ae8cd31702
+presence,context,OU001-RT601 Motion,43bf8f8c-bcea-4155-8d13-21ee436f8ef4,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,d1062339-227b-4e5b-a9a3-18ae8cd31702
+presence,context,OU001-RT601 Motion,fa14911c-41b9-4165-8671-9cf1bf98e90d,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,c0300733-c091-484e-9883-4eb1978e4a5b
+presence,context,OU001-RT601 Motion,953a47d8-b3eb-433d-96bf-e141463f6ecb,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,c0300733-c091-484e-9883-4eb1978e4a5b
+presence,context,OU001-RT601 Motion,fa55e7f5-83e4-4917-af4c-88e6270686b2,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,7b214840-789c-414e-9775-d13920afc6b8
+presence,context,OU001-RT601 Motion,b4159a12-56a0-4cc5-a951-38ddb4ba60a7,Presence,BooleanDetection,0.0,2026-09-02T06:34:55,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+presence,context,OU001-RT601 Motion,ee986221-ef83-45a8-ae56-baa2c7ff1a04,Presence,BooleanDetection,0.0,2026-09-02T06:34:53,aa748755-1afd-4cc8-ac61-81cdbb4a7a0d
+presence,context,OU001-RT601 Motion,ec1b152c-4feb-40a7-a009-e750e7879db1,Presence,BooleanDetection,0.0,2026-09-02T06:34:51,ab6c0b75-c380-4b56-b07c-ff20456e73e4
+presence,context,OU001-RT601 Motion,d3e198fc-c734-4608-b068-2cd3436c9a0e,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,faf8f05d-e0bf-4497-b096-cbd0adbdc1ee
+presence,context,OU001-RT601 Motion,bef47e4b-6df5-4d16-aa3e-5154e7e1d596,Presence,BooleanDetection,0.0,2026-09-02T06:34:51,faf8f05d-e0bf-4497-b096-cbd0adbdc1ee
+presence,context,OU001-RT601 Motion,1c3b8636-ef84-41dd-94fa-f5c5428f3e72,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,eb975959-5de6-4f22-867d-32cec546577e
+presence,context,OU001-RT601 Motion,57b510fb-736a-4c7b-bdeb-0584cad61328,Presence,BooleanDetection,1.0,2026-09-02T06:34:53,dba84f43-511e-4087-84e8-91b9a9dc27a0
+presence,context,OU001-RT601 Motion,1ee7e981-6efc-4d07-b4c8-d92a1d8297a3,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,7fedbd71-acac-451c-b7fb-02834d6b8b1f
+presence,context,OU001-RT601 Motion,2bf4c7b8-339f-4add-b5b6-53f6f1170ba9,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,7fedbd71-acac-451c-b7fb-02834d6b8b1f
+presence,context,OU001-RT602 Motion,c035721b-0043-42ea-a0a0-951f24a356d4,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,7c34ab73-d420-4610-857b-ce5f322d34b2
+presence,context,OU001-RT602 Motion,93c049ce-9f88-4048-ad97-6db6c56b15f1,Presence,BooleanDetection,0.0,2026-09-02T06:34:55,45732ea0-5a90-4bfa-bcb6-367e616b4a33
+presence,context,OU001-RT602 Motion,674b52ae-69a5-4e45-b3a6-0b5e135d0895,Presence,BooleanDetection,0.0,2026-09-02T06:34:54,faf8f05d-e0bf-4497-b096-cbd0adbdc1ee
+presence,context,OU001-RT602 Motion,e6117d1d-58c3-4664-b2f9-66d64e780078,Presence,BooleanDetection,0.0,2026-09-02T06:34:52,eb975959-5de6-4f22-867d-32cec546577e
+presence,context,OU001-RT603 Motion,8bef99cf-ad70-49e1-82ae-bc7d86bd8dcc,Presence,BooleanDetection,0.0,2026-09-02T06:34:55,45732ea0-5a90-4bfa-bcb6-367e616b4a33

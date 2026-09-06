@@ -1,0 +1,123 @@
+group,role,point_name,sensor_id,quantity_kind,unit,value_02_09,observed_utc,room_uuid
+CPlt350 chilled water,measure,C'CPlt350'Isvann'IK001'TFl412,6386f9c2-356d-4054-8b57-683f7647d9db,Temperature,Celsius,9.420000076293945,2026-09-02T06:35:41,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chilled water,measure,C'CPlt350'Isvann'IK001'TRt509,704b409c-3572-4b25-9d05-9c8f052cde67,Temperature,Celsius,11.359999656677246,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chilled water,measure,C'CPlt350'Isvann'IK002'TFl410,41132178-4107-4e09-8fc6-fe77cb585aec,Temperature,Celsius,10.279999732971191,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chilled water,measure,C'CPlt350'Isvann'IK002'TRt507,200e64b2-1a2d-423a-a6b5-9da488e1cb8f,Temperature,Celsius,11.559999465942383,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 condenser,measure,C'CPlt350'Cds'Cds390010'TFl405,63e1c065-ac5a-4d1d-bb89-ff6ddd4ca894,Temperature,Celsius,36.619998931884766,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 condenser,measure,C'CPlt350'Cds'Cds390010'TFl406,6db24cf1-40ad-405e-8f16-ad6bf31d16bc,Temperature,Celsius,36.540000915527344,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 condenser,measure,C'CPlt350'Cds'Cds390020'TFl407,4db551a8-ec89-47c4-a204-a6b44d4a5ecb,Temperature,Celsius,36.57999801635742,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 condenser,measure,C'CPlt350'Cds'Cds390020'TFl408,7de69a19-7d71-44fd-b2a6-a902a9d40d0c,Temperature,Celsius,35.18000030517578,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 condenser,measure,C'CPlt350'Cds'Cdstorrkj'TFl403,1e8f0a0c-1606-44e4-a33b-8a8af17fb9fa,Temperature,Celsius,36.52000045776367,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 condenser,measure,C'CPlt350'Cds'Cdstorrkj'TFl404,fa681150-68a8-4a50-be63-ba70a608c016,Temperature,Celsius,34.939998626708984,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 condenser,measure,C'CPlt350'Cds'Cdstorrkj'TFl413,836c0bc1-75a7-43ab-96e8-0af6032d1fb8,Temperature,Celsius,35.07999801635742,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 condenser,measure,C'CPlt350'Cds'Cdstorrkj'TRt503,94382303-ecc3-4ce4-ae81-ae42b597d8e2,Temperature,Celsius,34.31999969482422,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 condenser,measure,C'CPlt350'Cds'Cdstorrkj'TRt504,e10e1e67-95fb-495f-be6b-f4701bbf83de,Temperature,Celsius,34.73999786376953,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 condenser,measure,C'CPlt350'Cds'IK001'TFl411,9bfd2934-6974-4aa6-8821-99185155837a,Temperature,Celsius,37.18000030517578,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 condenser,measure,C'CPlt350'Cds'IK001'TRt508,9695ba2d-d687-4b3f-bcbe-498ddaa2ff73,Temperature,Celsius,34.70000076293945,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 condenser,measure,C'CPlt350'Cds'IK002'TFl409,c41fbfbe-9c22-476e-9fe8-089af4b03fd4,Temperature,Celsius,35.959999084472656,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 condenser,measure,C'CPlt350'Cds'IK002'TRt506,776404d7-2d5d-4596-b068-46d6a9f29809,Temperature,Celsius,34.65999984741211,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 setpoints,measure,C'CPlt350'Cds'Cdstorrkj'SpKondsom,5a1f5e3f-eb94-4f0d-a630-0749281006f7,Temperature,Celsius,38.5,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 setpoints,measure,C'CPlt350'Cds'Cdstorrkj'SpKondvin,ecbf1017-41a4-4111-a3f3-f6af4a7f827e,Temperature,Celsius,37.5,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK001'AlmItf,3a3a6b49-b667-4784-afe8-67589abdc3af,State,Index,51.0,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK001'FltIK001,de73a767-e7a6-40d4-9a03-e30f44b6de20,State,BooleanDetection,1.0,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK001'GasDet601,3fe48a8b-8a72-4e0a-b556-cbcf786b9dc3,State,BooleanDetection,1.0,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK001'OpMod1A,de0e4def-523b-447f-abdb-4d67ab24b80e,State,BooleanDetection,0.0,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK001'OpMod1B,fb1bb904-230d-4c88-8f81-1d4330dc77fe,State,BooleanDetection,1.0,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK001'OpModSKM,bf3a3a7c-b161-4915-9f33-457e1a5dcb69,State,BooleanDetection,1.0,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK001'Ovrr,6368fbca-b103-4196-bace-1a5c90926b18,State,BooleanDetection,0.0,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK001'ResetItf,287d7ce3-4d2d-4db5-b86b-2fd943a1efc6,State,Index,1.0,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK002'AlmItf,ace5aef4-9200-4187-96f2-94d35a04918a,State,Index,51.0,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK002'FltIK002,72e9011f-09db-4011-a437-6302a1a57aa6,State,BooleanDetection,0.0,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK002'GasDet602,758389ff-ce9f-4651-90dd-da159dc97712,State,BooleanDetection,1.0,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK002'OpMod2A,57115a91-3aa4-4bae-821d-3e828196fc84,State,BooleanDetection,1.0,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK002'OpMod2B,e6d086cc-104d-40f9-a214-ad6cfb3927eb,State,BooleanDetection,0.0,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK002'Ovrr,a785585e-3f74-4238-8501-da412a3cae42,State,BooleanDetection,0.0,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chiller state,measure,C'CPlt350'KMIK002'ResetItf,594c4dba-5752-4c3d-9c27-c8a381178afd,State,Index,1.0,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37000'SpC,8afb699a-4bd8-4be7-9686-f8d823c5be5c,Temperature,Celsius,13.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37000'TFl401,41581dfc-c9ef-42ce-8b00-9580a1fd1d79,Temperature,Celsius,11.719999313354492,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37000'TFl402,b1ff2f35-0571-46f8-9b51-9be0c1eb3828,Temperature,Celsius,10.09999942779541,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37000'TRt501,ba3440d9-848c-4981-b8b1-9cbd2e665f54,Temperature,Celsius,13.09999942779541,2026-09-02T06:35:41,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37000'TRt502,89031103-4ebf-442d-8c36-cd8df63939aa,Temperature,Celsius,9.880000114440918,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37010'SpC,afcb0b89-5bef-4de4-a1d2-ae12b263bc5b,Temperature,Celsius,12.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37010'SpC1,1f44b74b-dd5f-4b99-9ce1-a7daf20f467e,Temperature,Celsius,13.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37010'TFl401,232fd5a1-c035-4604-a939-6ac33d5f3981,Temperature,Celsius,24.35999870300293,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37010'TFl402,495b5fc6-6191-41a6-b69d-8eed80bffb93,Temperature,Celsius,23.559999465942383,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37010'TRt501,a68db83e-8c29-433f-a4e1-cbe1de199822,Temperature,Celsius,23.799999237060547,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37010'TRt501BAC,6bcbd8e8-a83d-4604-af68-d8fb641a9b43,Temperature,Celsius,11.559999465942383,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37030'TFl401,d60eac1f-8e6e-4a91-8b6c-37a6b5df7ca9,Temperature,Celsius,10.059999465942383,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37030'TRt501,1ad1719c-e57a-4519-ab8b-06b566cee7da,Temperature,Celsius,11.179999351501465,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37040'TFl401,e5ab3b77-519c-4d29-87e4-5a321e2ab480,Temperature,Celsius,9.920000076293945,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt370 circuits,measure,C'CPlt370'CPlt37040'TRt501,54b9f94c-4fb4-4889-b239-ced477b29854,Temperature,Celsius,11.800000190734863,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390000'TFl401,f1412b40-db2a-4045-8220-ea1785441920,Temperature,Celsius,8.639999389648438,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390000'TFl402,486a049f-e63e-4da0-bc96-8165eb571718,Temperature,Celsius,8.859999656677246,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390000'TRt501,00b92e60-cb56-4881-aae2-b3216f74a439,Temperature,Celsius,8.859999656677246,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390010'Spmin,10bd989d-37a1-4f1a-9841-6e50e6468b2a,Temperature,Celsius,24.5,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390010'TFl401,bd481101-c036-41c6-91bf-eca3079c0e09,Temperature,Celsius,32.599998474121094,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390010'TFl402,cc928296-e1cd-4264-929e-7352f2b73151,Temperature,Celsius,14.15999984741211,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390010'TRt501,4fa49c1c-13c3-4ea0-a8c6-9ac9031b455c,Temperature,Celsius,34.70000076293945,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390010'TRt502,0af6108c-dc01-4c0f-ba73-f5873a4ee56e,Temperature,Celsius,14.239999771118164,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390020'Spmin,47692cfa-ba65-4f2c-b53f-dddc682d23e6,Temperature,Celsius,34.5,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390020'TFl401,75083815-ab38-49f2-ae48-e0eb48bcee5f,Temperature,Celsius,33.959999084472656,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390020'TRt501,0cf236a2-473b-4ccf-b992-4031b6040883,Temperature,Celsius,28.53999900817871,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390030'TFl401,ea451219-1d9e-4c27-bd1d-181fa49eb077,Temperature,Celsius,36.29999923706055,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390030'TFl402,3d6cf375-39b2-4a70-8984-f92c5745ec44,Temperature,Celsius,34.63999938964844,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390080'TFl401,c5db6427-9e0e-4369-94a5-70e39de360ab,Temperature,Celsius,8.779999732971191,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390080'TRt501,0dc0d642-0b7f-4c48-91db-a12a2b12835f,Temperature,Celsius,8.899999618530273,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390090'TFl401,691772d5-41e8-4a98-9afc-210f4a99af7b,Temperature,Celsius,8.859999656677246,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+Erc390 heat recovery,measure,CdsHrc'Erc390'Erc390090'TRt501,fd2f3442-607a-49cc-bf3c-2a3368ef3e97,Temperature,Celsius,16.239999771118164,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32000'TFl401,e627ac42-56a6-4251-8639-23fccad35b4f,Temperature,Celsius,48.86000061035156,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32000'TRt501,67819291-4f0a-4eef-b935-ebed988a0f60,Temperature,Celsius,49.05999755859375,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32010'Sp,a15c13bd-6d50-4cdb-9ae3-a1ebdf1e1989,Temperature,Celsius,26.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32010'TFl401,d1e48db8-e12c-4639-9e5d-ff7d0049e1cc,Temperature,Celsius,19.85999870300293,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32010'TFl402,0c45e7c0-9b00-47ed-b13b-edc2f2ed2be4,Temperature,Celsius,24.35999870300293,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32010'TRt501,b21fa682-6ef8-4391-894a-180c8017db68,Temperature,Celsius,18.760000228881836,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32010'TRt502,731f25a9-c1ad-48fe-a36f-259c69d63074,Temperature,Celsius,28.3799991607666,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32030'Sp1,c5a39340-1281-44de-99f4-e40f3462dde2,Temperature,Celsius,10.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32030'SpDtr,17460926-fdb0-43d0-97f7-09419a49d99d,Temperature,Celsius,19.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32030'TFl,ee461ec4-b62a-4019-9af5-c783681846c2,Temperature,Celsius,25.34000015258789,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32030'TOa,903494ca-3e4a-4655-8d9d-bae0433e278f,Temperature,Celsius,25.15999984741211,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32030'TRt,98787b27-80f3-43ac-b45b-79135ce09af2,Temperature,Celsius,25.479999542236328,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32121'TRt501,f4bb8a1f-1435-4f25-ba59-18c315a5f968,Temperature,Celsius,28.059999465942383,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32122'TRt501,eb178f20-2d0b-4443-bf4e-cdbf4149fbbe,Temperature,Celsius,28.459999084472656,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32123'TRt501,ad282055-cda0-4e91-8ea4-ed91ea940c10,Temperature,Celsius,30.760000228881836,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32124'TRt501,796c7d36-6bee-4bd7-9ddd-a33107017242,Temperature,Celsius,27.779998779296875,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32125'TRt501,eb3f9b29-7864-44af-b9e2-9af72dacf983,Temperature,Celsius,28.01999855041504,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32126'TRt501,3ca71714-1631-4617-bee4-dbc20a6beb35,Temperature,Celsius,29.01999855041504,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32127'TRt501,18563b85-9a0b-4b59-9e76-015b00df3d6e,Temperature,Celsius,28.899999618530273,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32128'TRt501,bbacd068-2758-460e-99e5-ab60a7ff4c42,Temperature,Celsius,27.959999084472656,2026-09-02T06:35:40,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32129'TRt501,f1eed89c-7c39-47e2-98d3-fd53a59e23f8,Temperature,Celsius,29.15999984741211,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32130'TRt501,5b276fb5-0cfe-4df0-8202-47e6b47d4210,Temperature,Celsius,25.979999542236328,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32131'TRt501,a570120c-57f8-4dbb-8530-26ce80899993,Temperature,Celsius,35.79999923706055,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32132'TRt501,e3631313-6202-44b8-a378-e7662cad9d49,Temperature,Celsius,28.599998474121094,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32133'TRt501,13db325f-ff6f-42a3-8634-afac15835726,Temperature,Celsius,22.35999870300293,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32134'TRt501,1e836299-a4f2-46e7-b062-d7c4f36c974f,Temperature,Celsius,22.600000381469727,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'HPlt32121'HPlt32135'TRt501,f848ba4d-b3e8-4c96-96a3-2ec8bb285238,Temperature,Celsius,28.260000228881836,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'MxCrt'Sp5,70921d23-1334-4d02-b027-3a3ecfb9c9ed,Temperature,Celsius,5.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'MxCrt'Sp6,8e90a76a-ded0-42e2-8b33-e98d12ed2470,Temperature,Celsius,30.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'MxCrt'SpDtr1,490a40ff-cb37-43dc-84b7-e22af6666085,Temperature,Celsius,0.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'MxCrt'TFl,64ee7a9f-4a70-4d38-a6a0-b7d0df1a8e15,Temperature,Celsius,30.399999618530273,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'MxCrt'TFl1,e62758d1-2522-45e3-8d49-4df5b7128dc0,Temperature,Celsius,30.17999839782715,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'MxCrt'TRt1,5ffb3ba1-b796-44b6-b329-678685375b9b,Temperature,Celsius,34.099998474121094,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'MxCrt'TRt2,8465ad3a-52a2-40e6-a8b4-8f26cecacadc,Temperature,Celsius,30.67999839782715,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'SnoSen402'Sp1,a292d32e-2cc9-404a-85af-7696e2892caf,Temperature,Celsius,-5.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'SnoSen402'Sp2,0d7f2eba-36e0-4d0e-bf0d-b57a53bdeca4,Temperature,Celsius,3.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'SnoSen402'Sp6,32d10cf2-3bf9-4401-8dd2-db9304880f99,Temperature,Celsius,-2.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'SnoSen403'Sp1,89c9d290-6261-4b3b-9c69-8b2edddfd2cb,Temperature,Celsius,-4.5,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'SnoSen403'Sp2,b2790a75-a6dd-4b74-b213-51f32be8f2be,Temperature,Celsius,-10.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'SnoSen403'Sp6,79b2a944-2b36-4ab9-8f96-d7c78ea84d3a,Temperature,Celsius,-10.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'Sp4,318db291-2a3e-4bab-8415-be2a8f9dd5ab,Temperature,Celsius,2.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+HPlt320 heating,measure,H'HPlt320'Hplt32020'SpDtr,d2085b53-2d4f-4df0-9d9e-d9eb94fa717a,Temperature,Celsius,0.0,2026-09-02T05:52:52,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+pump faults,measure,C'CPlt350'Cds'Cdstorrkj'CirPu403'Flt,7d6c23f2-b0c9-40fb-aa15-4827090fb48e,State,BooleanDetection,0.0,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+pump faults,measure,C'CPlt350'Cds'IK001'PuJP401'Flt401,221f0ebd-e758-4a8d-b68b-5a7a28e40044,State,BooleanDetection,0.0,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+pump faults,measure,C'CPlt350'Cds'IK002'PuJP402'Flt402,f831634b-4593-4b0c-9187-5180b7befc7a,State,BooleanDetection,0.0,2026-09-02T06:35:38,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+pump faults,measure,C'CPlt350'Isvann'IK001'PuJP501'Flt501,a7f76dd8-7b33-457f-99c7-4cc2820c4048,State,BooleanDetection,0.0,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+pump faults,measure,C'CPlt350'Isvann'IK002'PuJP502'Flt502,5cc4c414-a67f-42f7-a68c-cc38aa363990,State,BooleanDetection,0.0,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+pump faults,measure,C'CPlt370'CPlt37000'PuTwn4012'Flt401,5eaf8934-7934-44d8-a3c2-beff7deddd17,State,BooleanDetection,0.0,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+pump faults,measure,C'CPlt370'CPlt37000'PuTwn4012'Flt402,2ba8f9ff-b98f-4e96-bdd9-4e01f028ce3a,State,BooleanDetection,0.0,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+pump faults,measure,C'CPlt370'CPlt37010'CirPu401'Flt,7ae68c09-e6b4-4834-8276-dc9d6de04a5b,State,BooleanDetection,0.0,2026-09-02T06:35:39,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+pump faults,measure,CdsHrc'Erc390'Erc390000'PuTwn4012'Flt401,6ac03164-0f25-4520-9b91-4907ba4e73f0,State,BooleanDetection,0.0,2026-09-02T06:35:35,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+pump faults,measure,CdsHrc'Erc390'Erc390000'PuTwn4012'Flt402,3fa620d4-68d8-40e3-8f07-1d18c00ea9c3,State,BooleanDetection,0.0,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+pump faults,measure,CdsHrc'Erc390'Erc390020'CirPu501'Flt,51c6822f-89a1-45aa-8b27-1bbfea563bf2,State,BooleanDetection,0.0,2026-09-02T06:35:36,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+pump faults,measure,CdsHrc'Erc390'Erc390030'CirPu401'Flt,6b60c76f-dcfd-4658-b7d9-736be425bbf5,State,BooleanDetection,0.0,2026-09-02T06:35:37,8f1ce6ec-8b8a-4068-9fb3-d1c314238272
+CPlt350 chilled water,measure,C'CPlt350'Isvann'TFl401,5f9b1bfe-b0ec-4db1-9e09-2144921029c3,Temperature,Celsius,9.800000190734863,2026-09-02T06:35:38,
+CPlt350 chilled water,measure,C'CPlt350'Isvann'TRt501,51223f7e-0ecd-4ec3-9d22-f2fe71f72e29,Temperature,Celsius,11.559999465942383,2026-09-02T06:35:36,

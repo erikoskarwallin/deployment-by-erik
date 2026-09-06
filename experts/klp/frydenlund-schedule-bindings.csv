@@ -1,0 +1,89 @@
+building,building_uuid,device_instance,device_name,system,schedule_object,schedule_name,class,occupancy_tier,baseline_2026-09-04_Mon-Fri,baseline_Sat,baseline_Sun,start_modus_scan,fan_run_point,frikjoling_point,occupancy_proxy_bacnet,schedule_subdevice_uuid,fan_run_sensor_uuid,start_modus_sensor_uuid,occupancy_proxy_sensor_uuid,status
+P46,fb7daba5-a91a-4a27-b623-2416470c5d89,1002,P46_360_001,360.001,schedule 1,Schedule 1,OCCUPANCY,none,07:30-18:00,07:45-18:00,08:00-18:00,3 (Auto),JV401_drift,Frikjoling,,50cffd43-9c05-4d94-b3c9-7c3e2067f4a2,,,,"EXAMPLE twins exist, no connector feed"
+P46,fb7daba5-a91a-4a27-b623-2416470c5d89,1003,P46_360.002,360.002,schedule 1,Schedule 1,OCCUPANCY,B-zone-join,07:00-18:00,11:05-18:15,11:10-15:15,3 (Auto),Driftlampe,Frikjoling,"13 zone ctrls: RY601/RB601 (7 CO2, 7 presence)",,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,1018,P52_360.005,360.005,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:30-15:55 | Tu 07:30-15:55 | We 07:30-18:00 | Th 07:30-20:00 | Fr 07:30-16:05,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+SB29,677b89b1-2f2e-47cd-ac79-ac6c2c71a8b6,1019,SB29_360.001,360.001,schedule 1,Schedule 1,OCCUPANCY,none,06:55-16:30,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+SB29,677b89b1-2f2e-47cd-ac79-ac6c2c71a8b6,1020,SB29_360.002,360.002,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:00-16:35 | Tu 07:00-16:36 | We 07:00-16:35 | Th 07:00-16:35 | Fr 07:00-16:35,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+P44,6a8918a3-8ada-4014-b1ee-3f7f98e0baaf,1026,P44_360.010,360.010,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:30-20:00(=2) | Tu 07:25-21:30(=2) | We 07:25-20:00(=2) | Th 07:25-19:00(=2) | Fr 07:25-15:30(=2),off,off,2 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,1027,P52_360.004,360.004,schedule 1,Schedule 1,OCCUPANCY,none,Mo 06:55-16:05 | Tu 06:55-16:05 | We 06:55-16:05 | Th 06:55-20:05 | Fr 06:55-16:05,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P44,6a8918a3-8ada-4014-b1ee-3f7f98e0baaf,1029,P44_360.011,360.011,schedule 1,Schedule 1,OCCUPANCY,none,06:00-16:30,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P44,6a8918a3-8ada-4014-b1ee-3f7f98e0baaf,1030,P44_360.012,360.012,schedule 1,IV001_KMD_MSV,OCCUPANCY,none,06:55-16:35(=3),07:50-23:00,07:50-23:00,,JV401_D,,,,,,,TO BIND
+P44,6a8918a3-8ada-4014-b1ee-3f7f98e0baaf,1030,P44_360.012,360.012,schedule 2,IV001_KMD_BV_FKJ,NIGHT-COOL,none,02:00-06:00,02:00-06:00,02:00-06:00,,JV401_D,,,,,,,TO BIND
+P46,fb7daba5-a91a-4a27-b623-2416470c5d89,1034,P46_360.003,360.003,schedule 1,Schedule 1,OCCUPANCY,none,07:00-16:35,off,off,3 (Auto),360.004-JV401_drift,Frikjoling,,,,,,TO BIND
+P46,fb7daba5-a91a-4a27-b623-2416470c5d89,1034,P46_360.003,360.003,schedule 2,360.004_JV401_402_503,CONSTANT,none,00:00-24:00,00:00-24:00,00:00-24:00,3 (Auto),360.004-JV401_drift,Frikjoling,,,,,,TO BIND
+P46,fb7daba5-a91a-4a27-b623-2416470c5d89,1034,P46_360.003,360.003,schedule 3,360.005_JV501,CONSTANT,none,00:00-24:00,00:00-24:00,00:00-24:00,3 (Auto),360.004-JV401_drift,Frikjoling,,,,,,TO BIND
+P46,fb7daba5-a91a-4a27-b623-2416470c5d89,1034,P46_360.003,360.003,schedule 4,360.006_JV501,CONSTANT,none,00:00-24:00,00:00-24:00,00:00-24:00,3 (Auto),360.004-JV401_drift,Frikjoling,,,,,,TO BIND
+P46,fb7daba5-a91a-4a27-b623-2416470c5d89,1034,P46_360.003,360.003,schedule 5,360.007_JV501,CONSTANT,none,00:00-24:00,00:00-24:00,00:00-24:00,3 (Auto),360.004-JV401_drift,Frikjoling,,,,,,TO BIND
+P46,fb7daba5-a91a-4a27-b623-2416470c5d89,1034,P46_360.003,360.003,schedule 6,360.008_JV501,CONSTANT,none,00:00-24:00,00:00-24:00,00:00-24:00,3 (Auto),360.004-JV401_drift,Frikjoling,,,,,,TO BIND
+P46,fb7daba5-a91a-4a27-b623-2416470c5d89,1034,P46_360.003,360.003,schedule 7,360.009_JV501,CONSTANT,none,00:00-24:00,00:00-24:00,00:00-24:00,3 (Auto),360.004-JV401_drift,Frikjoling,,,,,,TO BIND
+P42,94aabfd8-2328-47ae-bfcf-becfc1451590,1043,P42_360005,360.005,schedule 1,Schedule 1,OCCUPANCY,A-extract-co2,Mo 07:15-17:30 | Tu 07:15-21:30 | We 07:15-18:15 | Th 07:15-18:00 | Fr 07:15-16:00,off,off,3 (Auto),Drift_Diode,Frikjoling,RY501,,,,,TO BIND
+P40,306f7016-c284-4ad3-b2f9-30a867ff59f7,1044,P40_360_001A,360.001,schedule 1,Schedule 1,OCCUPANCY,none,07:00-17:00,off,off,3 (Auto),Drift_Diode,Frikjoling,"2 zone ctrls: RY601/RB601 (0 CO2, 0 presence)",,,,,TO BIND
+P40,306f7016-c284-4ad3-b2f9-30a867ff59f7,1045,P40_360_001B,360.001,schedule 1,Schedule 1,OCCUPANCY,none,06:15-16:00,off,off,3 (Auto),Drift_Diode,Frikjoling,"2 zone ctrls: RY601/RB601 (0 CO2, 0 presence)",,,,,TO BIND
+?,,1078,ECY-S1000-0CBE9B,,schedule 1,Schedule 1,OCCUPANCY,none,Mo 06:00-16:30 | Tu 06:01-16:30 | We 06:01-16:30 | Th 06:00-16:30 | Fr 06:01-16:30,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,1080,P52_360.010,360.010,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:00-16:30 | Tu 07:00-16:29 | We 07:00-16:29 | Th 07:00-16:31 | Fr 07:00-16:30,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,1085,P52_360_012,360.012,schedule 1,Schedule 1,OCCUPANCY,none,06:55-16:30,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,1086,P52_360_011,360.011,schedule 1,Schedule 1,OCCUPANCY,none,06:05-23:00,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,1087,P52_360_006,360.006,schedule 1,Schedule 1,OCCUPANCY,none,07:00-16:30,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,1088,P52_360_013,360.013,schedule 1,Schedule 1,OCCUPANCY,none,Mo 06:55-16:30 | Tu 06:55-16:30 | We 06:56-16:30 | Th 06:55-16:30 | Fr 06:55-16:30,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,1090,P52_360_002,360.002,schedule 1,Schedule 1,OCCUPANCY,none,07:00-17:05,off,12:35-19:00,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,1091,P52_370_001,370.001,schedule 1,Schedule 1,EMPTY,none,off,off,off,,,,,,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,1093,P52_360_001,360.001,schedule 1,Schedule 1,OCCUPANCY,none,07:00-16:30,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P50,5726471b-4584-4921-b146-bf3e978e3775,1094,P50_360_011,360.011,schedule 1,Schedule 1,OCCUPANCY,none,08:10-21:30,09:50-18:00,11:50-16:00,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+P50,5726471b-4584-4921-b146-bf3e978e3775,1095,P50_360_010,360.010,schedule 1,Schedule 1,OCCUPANCY,none,08:15-21:30,10:00-18:00,12:00-16:00,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+?,,1098,GOLD,,schedule 0,Schedule #1,EMPTY,none,off,off,off,,,,,,,,,TO BIND
+P50,5726471b-4584-4921-b146-bf3e978e3775,1116,P50_360_015,360.015,schedule 1,Schedule 1,OCCUPANCY,none,07:00-17:00,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+H1,,1165,H1_360005,360.005,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:06-17:00 | Tu 07:05-17:00 | We 07:08-17:00 | Th 07:08-17:00 | Fr 07:05-17:00,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+H1,,1166,H1_360004,360.004,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:05-17:00 | Tu 07:03-17:00 | We 07:06-16:59 | Th 07:06-16:59 | Fr 07:03-17:00,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P42,94aabfd8-2328-47ae-bfcf-becfc1451590,1173,P42_360006,360.006,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:55-16:00 | Tu 07:55-17:15 | We 07:55-16:00 | Th 07:55-18:20 | Fr 07:55-21:00,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+A,,1174,A360_001,360.001,schedule 1,Schedule 1,OCCUPANCY,none,07:00-17:00,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+A,,1174,A360_001,360.001,schedule 2,JV502,OCCUPANCY,none,06:30-17:00,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+A,,1174,A360_001,360.001,schedule 3,JV503,OCCUPANCY,none,06:00-18:00,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+A,,1175,A360_002,360.002,schedule 1,Schedule 1,OCCUPANCY,none,Mo 06:55-17:00 | Tu 07:01-17:05 | We 07:02-17:02 | Th 07:02-17:02 | Fr 07:05-17:02,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+A,,1175,A360_002,360.002,schedule 2,JV502,OCCUPANCY,none,06:30-17:00,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+A,,1176,A360_006,360.006,schedule 1,Schedule 1,OCCUPANCY,none,06:30-15:00,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+A,,1177,A360_021,360.021,schedule 1,Schedule 1,OCCUPANCY,none,Mo 06:59-17:00 | Tu 06:59-17:00 | We 07:00-17:00 | Th 07:00-17:00 | Fr 06:59-17:00,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+V,,1190,V360.004,360.004,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:05-17:00 | Tu 07:05-17:00 | We 07:06-17:00 | Th 07:06-17:00 | Fr 07:05-17:00,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+V,,1190,V360.004,360.004,schedule 2,Schedule 2,OCCUPANCY,none,Mo 05:58-22:00 | Tu 06:04-21:54 | We 06:02-21:56 | Th 06:02-21:58 | Fr 06:02-21:58,09:01-15:04,09:01-15:02,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+V,,1190,V360.004,360.004,schedule 3,Schedule 2 JV503,OCCUPANCY,none,Mo 06:02-21:56 | Tu 06:04-21:56 | We 06:04-21:52 | Th 06:00-21:56 | Fr 06:02-21:52,08:59-15:02,09:01-15:00,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+V,,1191,V360-005,,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:03-17:00 | Tu 07:05-16:59 | We 07:06-17:00 | Th 07:06-17:00 | Fr 07:05-17:01,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+V,,1193,V360.015,360.015,schedule 1,Schedule 1,OCCUPANCY,none,Mo 06:55-17:00 | Tu 06:55-16:55 | We 07:00-17:00 | Th 07:00-17:00 | Fr 07:00-17:00,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+V,,1194,V360.016,360.016,schedule 1,Schedule 1,OCCUPANCY,none,Mo 06:55-17:00 | Tu 07:00-17:01 | We 07:00-17:00 | Th 07:00-17:00 | Fr 07:02-17:00,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+V,,1195,V360.017,360.017,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:00-17:00 | Tu 06:59-17:00 | We 07:00-17:00 | Th 07:00-17:00 | Fr 07:02-16:58,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+V,,1196,V360.018,360.018,schedule 1,Schedule 1,OCCUPANCY,none,Mo 06:57-17:00 | Tu 06:57-16:55 | We 06:58-16:55 | Th 06:58-17:00 | Fr 07:00-17:00,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+V,,1196,V360.018,360.018,schedule 2,Schedule 2,OCCUPANCY,none,06:00-18:00,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+V,,1197,V360.019,360.019,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:00-17:00 | Tu 06:57-17:00 | We 06:58-17:00 | Th 06:58-17:01 | Fr 06:57-17:00,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+V,,1197,V360.019,360.019,schedule 2,Schedule 2,OCCUPANCY,none,06:00-18:00,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+P48,b0d50ca6-fe66-4cdd-ad9e-724f0aedecf8,1199,P48_360.003A,360.003,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:29-16:30 | Tu 07:29-18:00 | We 07:29-16:30 | Th 07:29-16:30 | Fr 07:29-16:30,11:10-18:15,11:15-15:15,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+V,,1200,V360007,360.007,schedule 1,Schedule 1,OCCUPANCY,none,Mo off | Tu 08:15-16:00 | We off | Th 08:15-16:00 | Fr 08:15-16:00,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+?,,1201,360008,360.008,schedule 1,Schedule 1,OCCUPANCY,none,Mo 08:40-17:00 | Tu 09:45-16:00 | We off | Th 07:45-16:00 | Fr 08:15-16:00,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+V,,1202,V360009,360.009,schedule 1,Schedule 1,OCCUPANCY,none,07:30-16:00,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+V,,1203,V360.003,360.003,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:05-17:00 | Tu 07:05-17:00 | We 07:04-17:00 | Th 07:04-17:00 | Fr 07:03-17:00,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+?,,1206,434023_360023,360.023,schedule 1,Schedule 1,OCCUPANCY,none,06:55-16:30,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P48,b0d50ca6-fe66-4cdd-ad9e-724f0aedecf8,1207,P48_360.003B,360.003,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:30-16:30 | Tu 07:30-18:00 | We 07:30-16:30 | Th 07:30-16:30 | Fr 07:30-16:30,11:10-18:15,11:16-15:15,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P48,b0d50ca6-fe66-4cdd-ad9e-724f0aedecf8,1209,P48_360.004,360.004,schedule 1,Schedule 1,OCCUPANCY,none,Mo 06:55-16:00 | Tu 06:55-16:00 | We 06:55-17:30 | Th 06:55-16:00 | Fr 06:55-16:00,09:00-13:00,09:00-16:30,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P48,b0d50ca6-fe66-4cdd-ad9e-724f0aedecf8,1211,P48_320.001,320.001,schedule 1,360.003_JV510,OTHER,none,06:00-18:00,off,off,,,,,,,,,TO BIND
+P48,b0d50ca6-fe66-4cdd-ad9e-724f0aedecf8,1211,P48_320.001,320.001,schedule 2,360.003_JV511,OTHER,none,06:00-19:00,off,off,,,,,,,,,TO BIND
+P44,6a8918a3-8ada-4014-b1ee-3f7f98e0baaf,1213,P44_360_013,360.013,schedule 1,Schedule 1,OCCUPANCY,none,05:30-23:00(=3),off,off,3 (Auto),JV401_d,Frikjoling,,,,,,TO BIND
+P44,6a8918a3-8ada-4014-b1ee-3f7f98e0baaf,1213,P44_360_013,360.013,schedule 2,Schedule 2,OCCUPANCY,none,07:00-18:00,07:00-18:00,07:00-18:00,3 (Auto),JV401_d,Frikjoling,,,,,,TO BIND
+P42,94aabfd8-2328-47ae-bfcf-becfc1451590,1220,P42_360_002,360.002,schedule 1,Schedule 1,OCCUPANCY,none,Mo 06:55-16:36 | Tu 06:55-16:35 | We 06:56-16:35 | Th 06:55-16:35 | Fr 06:55-16:35,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P42,94aabfd8-2328-47ae-bfcf-becfc1451590,1221,P42_360_001,360.001,schedule 1,Schedule 1,OCCUPANCY,none,06:55-16:35,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P42,94aabfd8-2328-47ae-bfcf-becfc1451590,1221,P42_360_001,360.001,schedule 2,Schedule 2,CONSTANT,none,00:00-24:00,00:00-24:00,00:00-24:00,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P42,94aabfd8-2328-47ae-bfcf-becfc1451590,1224,P42_360_004,360.004,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:59-14:59 | Tu 07:59-15:00 | We 07:59-15:01 | Th 07:59-15:01 | Fr 08:01-15:00,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P50,5726471b-4584-4921-b146-bf3e978e3775,1225,P50_360_013,360.013,schedule 1,Schedule 1,OCCUPANCY,none,07:25-15:55,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P50,5726471b-4584-4921-b146-bf3e978e3775,1226,P50_360_012,360.012,schedule 1,Schedule 1,OCCUPANCY,none,07:25-15:55,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+Holberg,,1227,Holberg Terrasse_360.024,360.024,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:00-17:05 | Tu 07:00-17:00 | We 07:00-17:00 | Th 07:00-17:00 | Fr 07:00-17:00,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+Holberg,,1228,Holbergs_Terasse 360.023,360.023,schedule 1,Schedule 1,OCCUPANCY,none,07:00-17:00,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,1229,P52_360.009,360.009,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:00-16:30 | Tu 07:00-16:29 | We 07:00-16:29 | Th 07:00-16:31 | Fr 07:00-16:30,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+HG1,,1231,HG1_V360_001,360.001,schedule 1,Schedule 1,OCCUPANCY,A-extract-co2,Mo 07:00-17:00(=3) | Tu 07:00-16:59(=3) | We 07:02-17:00(=3) | Th 07:02-17:00(=3) | Fr 07:00-17:00(=3),off,off,3 (Auto),JV401_D,Frikjoling,RY501,,,,,TO BIND
+HG1,,1232,HG1_V360_002,360.002,schedule 1,Schedule 1,OCCUPANCY,A-extract-co2,Mo 06:59-17:00(=3) | Tu 07:00-17:00(=3) | We 07:00-17:00(=3) | Th 07:00-17:00(=3) | Fr 06:59-17:00(=3),off,off,3 (Auto),JV401_D,Frikjoling,RY501,,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,1233,P52_360.020,360.020,schedule 1,Schedule 1,OCCUPANCY,none,06:15-16:30,off,off,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+H1,,1238,H1_37003_004,,schedule 1,Schedule 1,EMPTY,none,off,off,off,,,,,,,,,TO BIND
+P48,b0d50ca6-fe66-4cdd-ad9e-724f0aedecf8,1249,P48=360.001,360.001,schedule 1,Schedule 1,OCCUPANCY,none,Mo 06:55-18:00 | Tu 06:55-18:15 | We 06:55-18:00 | Th 06:55-18:00 | Fr 06:55-18:00,11:15-18:15,11:15-15:15,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P48,b0d50ca6-fe66-4cdd-ad9e-724f0aedecf8,1250,P48=360.002,360.002,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:30-18:00 | Tu 07:30-18:00 | We 07:30-18:15 | Th 07:30-18:00 | Fr 07:30-18:00,11:20-18:15,11:20-15:15,3 (Auto),JV401_drift,Frikjoling,,,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,10118,P52_360_001,360.001,schedule 1,Schedule 1,OCCUPANCY,none,06:55-16:25,off,off,3 (Auto),Drift_Diode,Frikjoling,,,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,10121,P52_360_002,360.002,schedule 1,Schedule 1,OCCUPANCY,none,Mo 07:00-16:05 | Tu 07:00-16:00 | We 07:00-16:05 | Th 07:00-16:05 | Fr 07:00-16:05,off,off,3 (Auto),Drift_Diode,Frikjoling,,,,,,TO BIND
+P52,1f4976b1-5620-4e86-875d-8bbd90ca96e3,10132,P52_360_003,360.003,schedule 1,Schedule 1,OCCUPANCY,none,06:00-18:00,off,off,3 (Auto),Drift_Diode,Frikjoling,"2 zone ctrls: RY601/RB601 (0 CO2, 0 presence)",,,,,TO BIND
+V,,10192,V360_015,360.015,schedule 1,Schedule 1,OCCUPANCY,none,06:55-16:30,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+V,,360020,V360.020,360.020,schedule 1,Schedule 1,OCCUPANCY,none,Mo 06:57-17:00 | Tu 06:57-17:01 | We 06:58-17:00 | Th 06:58-17:01 | Fr 06:57-17:00,off,off,3 (Auto),JV401_D,Frikjoling,,,,,,TO BIND
+?,,1600001,30-61WG  - 1600001,,schedule 1,occ_scheduling,EMPTY,none,off,off,off,,,,,,,,,TO BIND
+?,,1600002,30-61WG  - 1600002,,schedule 1,occ_scheduling,EMPTY,none,off,off,off,,,,,,,,,TO BIND
