@@ -149,8 +149,12 @@ pulldown-vs-steady-state split. Target now 40 calls / 250k tokens.
       ⚠️ Do NOT add a Service Object config: on 08/24 it crashed the invocation outright
       (`No ToolCallback found for tool name: none`, 0 tokens), and the fix is unverified.
 - [ ] **C · Regenerate the bindings CSV when OTEAM-6845 lands.** Do not hand-patch it.
-- [ ] **E · Get the actual BAS weekday schedule.** Saturday (06:10 → 13:12) and Sunday
-      (none) are observed; the weekday off-time is not, so Rule 3 has to hedge.
+- [x] **~~Get the actual BAS weekday schedule~~** — DONE 09/01 from floor-7 transitions:
+      **05:07-05:09 -> 19:32-19:45 PT, ~14.5 h.** Saturday 06:10 -> 13:12, Sunday none.
+- [ ] **E/C · Read the portal's own request list for Sun 08/30.** Snell & Wilmer's zones ran
+      from 08:15 against a 12:55 booking start. Recurring series do not email per instance, so
+      the 4h40m may be an unseen request rather than unbilled service. This is the one thing
+      standing between the floor-7 result and taking it to Josh.
 
 ## 📋 08/31 — two tickets out, mapping paused for review
 

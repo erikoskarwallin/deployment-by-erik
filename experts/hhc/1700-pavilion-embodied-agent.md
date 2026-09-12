@@ -238,11 +238,26 @@ Watch and Plant PdM agent UUIDs must be filled in before routing is used at
 all** — see [DEPLOY CHECKLIST]. Until then, routing is unavailable and the
 `NOT MINE TODAY` line is the whole mechanism.
 
-⚠️ **When you do quote the loop, quote the DAYTIME PEAK against the 85 °F
-alarm, not the current value.** Overnight the loop is idle and reads 8–9 °F of
-margin; the number that matters is the afternoon peak, and over the 14 days to
-08/30 that was **3.3–6 °F**. Reporting the spot value overstates the margin —
-a mistake that was made in every daily report for two weeks.
+⚠️ **When you quote the loop, quote the OVERNIGHT PEAK against the 85 °F
+alarm — never the spot value, and never the afternoon.** Measured hour by hour
+over the 14 days to 09/01, `bldgCwSupply` is flat at **75.0–75.6 °F all day**
+and climbs steadily overnight to a peak at **04:00–05:00 PT (mean 78.7 °F, worst
+81.68 °F on 08/21)**. The plant then restarts and pulls it down by 07:00.
+
+```
+hour PT   18   20   22   00   02   04   06   08 .. 17
+mean F   73.1 74.4 75.7 76.9 78.0 78.7 75.8 75.0-75.6 flat
+```
+
+**Night max exceeded day max on 14 of 14 days.** So the daytime margin is
+9–10 °F and the overnight margin is 3–6 °F, and only the second one is worth
+reporting. ⚠️ This corrects a note of 08/30 that had it exactly backwards —
+it read the 3.3–6 °F figures as afternoon peaks and called the overnight
+readings the overstatement. They are the same numbers, and they are overnight.
+
+➡️ This is also why the 06:00 PT run time is right: the overnight climb has
+just completed and been reversed, so the worst value of the cycle is knowable
+and complete. At any other hour it is not.
 
 ## [MY SENSES — WHAT I HAVE, AND WHAT I DO NOT]
 
@@ -506,15 +521,18 @@ The base template's thresholds are Nordic and metric. These are 1700's.
 | **Zone comfort band, Occupied** | **69–77 °F** | setpoints ±2 °F |
 | Zone drift, Unoccupied | 78–83 °F observed | normal, not a finding |
 | Building loop alarm | **85 °F** | the live SMS trigger |
-| Loop daytime peak margin | 3.3–6 °F | 14 days to 08/30. **Quote the peak.** |
-| Base schedule, weekday | on **05:09–05:24 PT** | observed 08/31. ⚠️ Supersedes the ~06:10 previously on record, which came from a Saturday |
+| **Loop overnight peak** | 78.7 °F mean, 81.7 °F worst | 04:00–05:00 PT, 14 days to 09/01. Margin **3.3–6 °F**. This is the number to quote |
+| Loop daytime, all hours | 75.0–75.6 °F flat | margin 9–10 °F. Not a risk figure |
+| Base schedule, weekday | **05:07–05:09 → 19:32–19:45 PT** (~14.5 h) | ESTABLISHED 09/01 from 6 days of floor-7 transitions. Supersedes both the ~06:10 (a Saturday figure) and "end time unknown" |
 | Base schedule, Saturday | 06:10 → 13:12 PT | observed 08/29 |
 | Base schedule, Sunday | **none** | 08/30 — the building started only because a booking pulled it on |
 
-⚠️ **The weekday base schedule end time is NOT established.** Saturday's 13:12
-and Sunday's absence are observed; the weekday off-time is not. Rule 3 must
-report *"no weekday base schedule on record"* rather than assume one. Getting
-the actual BAS schedule is a named open item.
+✅ **The weekday schedule is now established** — 05:08 → ~19:40 PT, from six days
+of clean on/off transitions on floor 7. Rule 3 no longer has to hedge.
+⚠️ **It is 14.5 hours long, which changes what "after hours" means here:** a
+weekday Genea request inside 05:08–19:40 is billing for conditioning the base
+schedule already delivers. Surface those hours separately — they are the most
+checkable claim in the whole reconciliation.
 
 **Classification** — use the base template's four states, unchanged:
 
