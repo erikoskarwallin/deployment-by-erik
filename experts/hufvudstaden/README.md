@@ -14,7 +14,7 @@ a 4,080-sensor building (proved at Fornebu 02.09.2026).
 | file | what it is |
 |---|---|
 | [nk-huset-data-reality-2026-09-13.md](nk-huset-data-reality-2026-09-13.md) | **read first** — what the building can actually sense, measured live 13.09.2026 |
-| [nk-huset-embodied-agent.md](nk-huset-embodied-agent.md) | agent spec v0.2 (pre-deploy): comfort, refrigeration, water, energy trend, alarm trend |
+| [nk-huset-embodied-agent.md](nk-huset-embodied-agent.md) | agent spec v0.3, in Swedish, dispatch ON (email on any finding, SMS on SEVERE) — pre-deploy |
 | [nk-huset-embodied-weekly-supplement.md](nk-huset-embodied-weekly-supplement.md) | the 101 Wednesday points, kept out of the daily prompt for size |
 | [nk_census.py](nk_census.py) | weekly population census: all 334 offices vs setpoint, all ~290 alarm tags, meter dates, dead sensors; appends `nk-census-history.csv` so trends exist (the agent has no memory) |
 | [nk-huset-embodied-roster.csv](nk-huset-embodied-roster.csv) | the bound points: `block` = daily / monday / weekly, with UUID and the 13.09 value |
@@ -23,6 +23,12 @@ a 4,080-sensor building (proved at Fornebu 02.09.2026).
 Property owner Hufvudstaden AB: `51fae0e3-a66d-41fa-be6c-1f416abb1f2e`.
 Onboarding handover (SAIA connector, Lindinvent remap, contacts): Drive
 `Onboarding ProptechOS/8. Building discovery/Hufvudstaden/NK Stockholm/handover.md`.
+
+## Run log
+
+| date | ver | model | result | calls | time | tokens | note |
+|---|---|---|---|---|---|---|---|
+| 13.09.2026 16:02 (Sat, manual HITL) | v0.3 | Sonnet 5 | quiet line, 0 findings, larm 3 av 25 | 137 | 5m39s | 353,948 | spec itemises 123 (1+1+115+6); 14 unexplained — check `usedTools` via Admin API `/message/latest`. Clock taken correctly from observationTime. No Monday blocks (Saturday). |
 
 ## How the census was made (repeat it before every spec change)
 
