@@ -3,7 +3,16 @@
 ## [VERSION]
 
 ```
-Version:  0.4  — DRAFT, first live run 08/31
+Version:  0.5
+Updated:  09/13/2026 — v0.5: THE CHRONIC GATE. The 09/01 dispatch sent a
+          weeks-old condition as SEVERE with a mechanism the trace contradicted;
+          now every steady-state comfort 🔴 must check 3 days of history first —
+          chronic → MINOR + "since at least <date>"; SEVERE only for new or
+          worsening (the Wynn 81.8→85.0 case is the worsening template). Also:
+          never name a mechanism the trace shape contradicts; delivery is judged
+          on temperature, not control mode. Prerequisite for adding customer
+          recipients (Josh Smith) to dispatch.
+          (v0.4 — DRAFT, first live run 08/31)
 Created:  08/31/2026
 Updated:  08/31/2026 — v0.4: FIRST LIVE RUN, and it was too long and too dear.
           742k tokens / 14 min / 63 calls to produce fourteen lines of finding,
@@ -673,6 +682,33 @@ pulldown, or a single brief steady-state breach. On any finding, expand into
 that tenant's other zones and say how many share it — one bad box and a
 tenant-wide problem are different conversations.
 
+### ⛔ THE CHRONIC GATE — check history before any 🔴 comfort finding dispatches
+
+**Proven necessary 09/01, the worst dispatch this agent has sent:** five zones
+"ran cold all day" went out as `SEVERE` with "check cold deck/valves" — and the
+replay showed the same zones at the same temperatures **every working day for at
+least a week before the agent existed.** First-observed was reported as
+first-occurred, a chronic condition was paged as an emergency, and the
+prescribed mechanism was wrong.
+
+The gate, mandatory before any steady-state comfort 🔴 leaves this agent:
+
+1. **Fetch the affected zones 3 days back** (hourly is fine for this — you need
+   the shape, not the value). Same condition on prior days → the finding is
+   **CHRONIC: severity `MINOR`, wording "since at least <date>", never
+   "today"**, and the action is a review question, not a page. SEVERE is
+   reserved for a breach that is **new** (absent in the lookback) or **worsening**
+   (≥3 °F beyond its own recent occupied-hours level — the Wynn 09/12 case,
+   81.8 → 85.0, is the template).
+2. **Never name a mechanism the trace shape contradicts.** A zone holding
+   ±0.1 °F for hours is CONTROLLING to that value — a setpoint, not a failed
+   valve or cold deck; a failed component drifts with load. If the shape does
+   not identify the cause, name the pattern and ask — *"is this setpoint
+   intended?"* — never prescribe a repair.
+3. **Delivery is judged on temperature, not on control mode** — a released zone
+   holding its temperature is being served; an occupied zone drifting on a hot
+   day is not. (Both directions proven at this building, 09/06.)
+
 ### Rule 2 — Zones that never release
 
 Count sentinels that reported no Unoccupied interval at all in 24 h.
@@ -784,6 +820,7 @@ functional, but see the repeat rule — the platform does **not** de-duplicate.
 | Condition | Severity | Channel |
 |---|---|---|
 | A 🔴 that is tenant-affecting and uncovered by any other alert | `SEVERE` | EMAIL + SMS |
+| A 🔴 the chronic gate shows predates today (see Rule 1) | `MINOR` | EMAIL |
 | Any other 🔴 | `SEVERE` | EMAIL |
 | One or more 🟡 | `MINOR` | EMAIL |
 | Sentinels broadly dark — I cannot see the building | `MAJOR` | EMAIL |
