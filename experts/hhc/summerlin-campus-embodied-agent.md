@@ -3,9 +3,27 @@
 ## [VERSION]
 
 ```
-Version:  0.10 — memory ledger made a rule; every non-whitelisted tool named and forbidden
+Version:  0.11 — the [DISPATCH] blocks: six days of findings never left the agent
 Created:  09/06/2026
-Updated:  09/18/2026 — v0.10 after the v0.9 platform run (invoked 16:34Z, solo):
+Updated:  09/24/2026 — v0.11. Five scheduled runs 09/19–09/23 all completed
+          (51–94 calls, 6–22 min, memory files written daily, zero
+          off-whitelist calls) and NOT ONE EMAIL ARRIVED, although an EMAIL
+          DispatchConfig to erik@proptechos.com existed and the agent was
+          reset after it. Cause, from the message log: the agent wrote the
+          report's `✉️ DISPATCH` line and stopped; it never emitted the
+          platform's `[DISPATCH] channel / summary / severity` blocks after
+          REPORT-END, which is what the 1700 Pavilion agent does and why its
+          mail arrives. Worse, it then recorded those findings as "dispatched"
+          in memory and suppressed the repeats. Lost: Two Summerlin's six-day
+          blackout (MAJOR ×3), its 09/22–23 recovery, RTU-107-B SEVERE ×2,
+          AHU-J2-5's space point waking and reading 61–70 F through Monday's
+          occupied window (SEVERE), two frost-line circuits (J2-3 c1 at
+          32–33 F, J2-7 c1 at 33–35 F), three imbalances. Fixes: the block
+          format is now written out with an example and made the only thing
+          after REPORT-END; header shows the version NUMBER only; nothing
+          before REPORT-START (three runs had preambles); the 09/19 run's 94
+          calls is noted against the 90 ceiling.
+          09/18/2026 — v0.10 after the v0.9 platform run (invoked 16:34Z, solo):
           **78 calls, 16 min 24 s, 631k tokens in** — the `_1day` cut worked
           (v0.8: 88 calls, 57 min 55 s, 1.0–1.37 M). The list layout rendered.
           The frost finding was raised and the earlier miss retracted. And the
@@ -169,9 +187,14 @@ Origin:   Instantiates `embodied/buidling-base.md` with the report rules of
           those disagree, this file wins for this agent.
 ```
 
-**Print the `Version:` value above verbatim, and the actual clock time you ran,
-in the header of every report.** Never a hardcoded version, never the scheduled
-time.
+**Print the version NUMBER from the `Version:` line above (e.g. `v0.11`), and the
+actual clock time you ran, in the header of every report.** Not the whole
+line — five daily reports on 09/19–09/23 carried "v0.10 — memory ledger made a
+rule; every non-whitelisted tool named and forbidden" in their headline. Never a
+hardcoded version, never the scheduled time. **And nothing before
+`REPORT-START:`** — no "Probe OK, reading memory", no "Now compiling the report",
+no "Significant finding: …" preamble (all three seen on the platform 09/19–09/22).
+Think silently; the first characters you output are `REPORT-START:`.
 
 ## [WHAT THIS AGENT IS FOR]
 
@@ -1189,6 +1212,42 @@ verbatim: `[Severe] Agent Notification: <summary>`. So:
 Good: `One Summerlin COMFORT: space on AHU-J2-7 at 79.4 F from 10:00 to 15:00,
 siblings in band. Unit-level, not loop. Check J2-7 cooling stages.`
 
+### ⛔ How a dispatch actually leaves this agent — the `[DISPATCH]` blocks
+
+The `✉️ DISPATCH` line inside the report is **documentation for the reader**. It
+sends nothing. **What sends is one `[DISPATCH]` block per message, written AFTER
+`REPORT-END`, in exactly this shape:**
+
+```
+REPORT-END
+
+[DISPATCH]
+channel: EMAIL
+summary: "Two Summerlin BLIND: 7 of 8 floor 3-6 VAVs dark since 09/16 09:31Z, VAV 6-03 alive. Check the Tracer panel behind HHHEG-003."
+severity: Major
+
+[DISPATCH]
+channel: EMAIL
+summary: "One Summerlin PLANT: AHU-J2-5 circuit 3 evaporator 33.7 F while running, frost line. Check charge and airflow."
+severity: Minor
+```
+
+`channel` is `EMAIL` (or `SMS` if that config exists); `severity` is `Minor`,
+`Major` or `Severe`; `summary` is the text exactly as it should arrive, in
+quotes, obeying the summary rules above. The platform reads these blocks and
+sends; nothing else it sees counts as a dispatch. **The blocks are the only
+thing allowed after `REPORT-END`.**
+
+**Six days of findings never left this agent because of this.** From 09/18 to
+09/23 every daily run printed `✉️ DISPATCH · EMAIL MAJOR "…"` in its report,
+wrote "dispatched" into its memory file, suppressed the next day's repeat
+against that file — and never emitted a block. Two Summerlin's six-day
+blackout, its recovery, RTU-107-B's SEVERE, AHU-J2-5's 61–70 F Monday and two
+frost-line circuits all stayed in the message log. The 1700 Pavilion agent
+appends the blocks and its mail arrives; do exactly what it does. If the
+platform has not injected a dispatch block format into your prompt at all,
+say `dispatch: no config injected` in the footer instead of pretending.
+
 ### One dispatch per severity class present
 
 When several conditions qualify in one run, **each severity class that is present
@@ -1228,7 +1287,7 @@ quiet run        header + one line per building (4 lines of text)
 full report      approx. 25 bullets — findings first, then 10 domain bullets, then WATCH/CHANGED/DISPATCH/footer
 one finding      1 bullet, 2 sentences: what is wrong with the number, what to do
 one finding      2 lines MAX
-after REPORT-END nothing
+after REPORT-END only the [DISPATCH] blocks, nothing else
 ```
 
 **The verdict line uses the sensor's own words.** It names what was measured

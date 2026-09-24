@@ -346,3 +346,27 @@ agent's tool configuration in the editor** — the prompt cannot.
 
 Not verified this round (my MCP connector needs re-auth): the CHANGED claim that AHU-J2-5's space point recovered to
 73.90 / 72.96 F by 09:00 PT after the 52 F morning.
+
+
+---
+
+# 09/24 — the first week in service: five clean runs, ZERO emails → v0.11
+
+Pulled via the Agent API 09/24 13:5xZ. Scheduled runs 09/19–09/23 all completed: 94/60/51/85/85 calls, 22.5/9.0/6.5/19.4/16.1
+min, 1.16 M/410k/534k/595k/483k tokens in, zero off-whitelist calls, a memory file written every day (`/reports/2026-09-19.md`
+… `-23.md`), repeats suppressed against them. The EMAIL DispatchConfig (erik@proptechos.com, enabled) existed and the agent
+was reset after it (19:10Z 09/18). **Gmail holds no Summerlin email at all.** The message log shows why: every report ends
+with the `✉️ DISPATCH · EMAIL …` line and nothing after REPORT-END. The 1700 agent's responses end with
+`[DISPATCH] / channel: EMAIL / summary: "…" / severity: Severe` blocks, one per message, and its mail arrives. The Summerlin
+spec described the report line as "the summary text as it would be sent" and never told the agent to emit the blocks — so
+it treated the line as the send, recorded "dispatched" in memory, and de-duplicated the next day against a send that never
+happened. **Findings that never reached anyone:** Two Summerlin MAJOR 09/19, 09/20, 09/21 and its recovery 09/22–23
+(6-day blackout ended); RTU-107-B SEVERE 09/19 and 09/22; AHU-J2-5's space point alive again and 60.9–69.1 F for 7 of 11
+occupied hours on Monday 09/21 (SEVERE 09/22, worse 09/23: 53.6–75.1 F, 9 of 11 hours); AHU-J2-3 c1 evap 32.0–33.4 F all
+occupied hours 09/19; AHU-J2-7 c1 evap 32.7–34.9 F all occupied hours 09/23; imbalances on J1-2, J2-8, J1-7.
+
+Also seen: the header printed the whole `Version:` line; three runs had preamble text before REPORT-START ("Probe OK…",
+"Now compiling the report.", "Significant finding: …"); the 09/19 run made 94 calls against a 90 ceiling.
+
+**v0.11 uploaded 09/24 (verified identical), reset.** Adds the `[DISPATCH]` block format with an example as the only
+content after REPORT-END, version number only in the header, nothing before REPORT-START. First test: 09/25 14:00Z.
