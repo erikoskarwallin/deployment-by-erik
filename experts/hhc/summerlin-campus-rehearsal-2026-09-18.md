@@ -370,3 +370,25 @@ Also seen: the header printed the whole `Version:` line; three runs had preamble
 
 **v0.11 uploaded 09/24 (verified identical), reset.** Adds the `[DISPATCH]` block format with an example as the only
 content after REPORT-END, version number only in the header, nothing before REPORT-START. First test: 09/25 14:00Z.
+
+
+---
+
+# 09/25 — v0.11 delivered its first emails; the content, checked
+
+14:12Z: two emails at erik@proptechos.com (SEVERE + MINOR) — the `[DISPATCH]` block fix works end to end. Against Thursday's
+raw data (REST, per PT hour):
+
+| Email | Verdict |
+|---|---|
+| **SEVERE** "AHU-J1-7 space 76.1–77.1 F all day, out of band, first day sensing after weeks flat" | **FALSE.** 77.05 F all night, one step to 76.1 F at 05:00 (setpoint 85 → 72.5), then 76.07–76.26 F for 19 h. Not sensing; the plant-start step made the day range 1.0 F and beat the 0.5 F flat test. |
+| **MINOR** "AHU-J2-5 circuit 3 approach 4–6 F above circuit 2, 12–17 PT" | **Artefact.** C2 within-hour min/max 79–80 / 90–92 F every hour 09–15 PT = cycling; C3 steady 89.5–92.7. Hourly-mean approach of a cycling circuit is a blend. At 16 PT (C2 steady 88.7–90.5) the spread is approx. 1.5–2 F. |
+| Not sent: AHU-J2-5 space 62.8–68.8 F for approx. 10 of 13 occupied hours Thursday (band 70.5–74.5) | **REAL, withheld** — memory said "dispatched 09/24" for a send that never happened. |
+| Not sent: RTU-107-B return air 82–86 F 10–17 PT, fan 42–48 % | **REAL, withheld**, same reason. Day 10. |
+
+Also today 13:16Z: 1700 v0.6's first tick emailed BOTH addresses a MINOR (New York Life 1.2–1.6 F under the floor on 2 of 3
+days — verified: Wed 6.0 h < 69 min 67.1, Thu 3.5 h min 67.25; Wynn and Gallery recovered — verified). Correct finding,
+correct severity under the new depth ladder, no false Wynn relapse. v0.6 is doing its job.
+
+**v0.12 (on disk, needs a gateway token to upload):** newly-moving points are WATCH for 3 days; flat test on the occupied
+window; depth ladder; concrete cycling rule; `DISPATCHED:` lines before 09/25 void so the two withheld findings go out.

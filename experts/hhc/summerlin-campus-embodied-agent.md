@@ -3,9 +3,24 @@
 ## [VERSION]
 
 ```
-Version:  0.11 — the [DISPATCH] blocks: six days of findings never left the agent
+Version:  0.12 — first delivered emails; newly-sensing quarantine, depth ladder, cycling rule, void phantom ledger lines
 Created:  09/06/2026
-Updated:  09/24/2026 — v0.11. Five scheduled runs 09/19–09/23 all completed
+Updated:  09/25/2026 — v0.12. The 14:00Z run on v0.11 emitted the `[DISPATCH]`
+          blocks and BOTH EMAILS ARRIVED at erik@proptechos.com — dispatch is
+          proven end to end. But: (a) the SEVERE was false — AHU-J1-7's space
+          point made one 1 °F step at plant start and sat still; the flat
+          test on the full-day range let it through and "first day sensing"
+          became a red. Newly-moving points are WATCH for 3 days; the flat
+          test runs on the occupied window; a depth ladder now applies here
+          as at 1700. (b) The MINOR "J2-5 circuit 3 approach 4–6 F above
+          circuit 2" is the cycling artefact the spec already warned about;
+          the cycling rule is now concrete. (c) Two REAL findings were
+          withheld as "repeats": AHU-J2-5's space at 62.8–68.8 F for most of
+          Thursday's occupied window and RTU-107-B's return air at 82–86 F
+          with the fan at 42–48 % — because the 09/24 memory file said
+          "dispatched" for sends that never happened. `DISPATCHED:` lines
+          dated before 09/25 are declared void.
+          09/24/2026 — v0.11. Five scheduled runs 09/19–09/23 all completed
           (51–94 calls, 6–22 min, memory files written daily, zero
           off-whitelist calls) and NOT ONE EMAIL ARRIVED, although an EMAIL
           DispatchConfig to erik@proptechos.com existed and the agent was
@@ -301,6 +316,13 @@ FLAT: <list of flat space points>        DARK: <device, since date>     CANARIES
 PLANT: <units visited> · <cycling/imbalance/frost one line each>
 WATCH: <one line>        CHANGED: <one line>
 ```
+
+⚠️ **`DISPATCHED:` lines in files dated before 09/25/2026 are VOID.** Those runs
+wrote "dispatched" without emitting a `[DISPATCH]` block, so nothing was sent
+(v0.11 note). Treat every finding they list as never sent: it qualifies as
+NEW today. From 09/25 on, write a `DISPATCHED:` line only for a message you
+actually emitted as a block in the same response — the block is the send, the
+memory line merely records it.
 
 **What memory is for:** the repeat test (a finding is a repeat only if a
 `DISPATCHED:` line for it exists in a file dated within 24 h), the `CHANGED` line
@@ -970,8 +992,23 @@ is a space doing its job. **If yesterday was a Saturday or Sunday, Rule 1 is ⚪
 for all three buildings** — "no occupied window on a <day>", one phrase on the
 OK line, and the numbers still count as returned for freshness.
 
+- **A point that starts moving is a WATCH, never a finding, for 3 days.** On
+  09/25 the agent sent a SEVERE that AHU-J1-7's space was "76.1–77.1 F all day,
+  out of band, first day sensing after weeks flat". The series: 77.05 F all
+  night, one step down to 76.1 F at 05:00 when the setpoint stepped 85 → 72.5,
+  then 76.07–76.26 F for the next 19 hours. That is not a room responding to a
+  12 °F setpoint change; it is a non-sensing point with one step in it. A point
+  is SENSING only when it moves with the day — falls after the occupied
+  setpoint arrives, drifts up after release, spans more than 2 °F inside the
+  occupied window. Until it has done that on three days, it goes in WATCH as
+  `<unit> space point moving again, day N — not yet trusted` and carries no
+  colour and no dispatch.
+- **The flat test runs on the OCCUPIED window, and a single step does not count
+  as movement.** Range of the occupied-window buckets under 0.50 °F → FLAT,
+  whatever the full-day range says (the plant-start step makes the day range
+  1.0 °F on a point that never sensed anything).
 - **A flat point is not a warm space. Run the flat test FIRST.** If the
-  sentinel's 24 hourly buckets span less than 0.50 °F, the point is not sensing
+  sentinel's occupied-window buckets span less than 0.50 °F, the point is not sensing
   (see the sentinel table) and Rule 1 does not apply to it. It counts as
   `flat`, not as out of band, and it can never carry a 🔴. At Bldg J most
   `Space Temperature Active` points sit flat near 77 °F for days; on
@@ -991,7 +1028,12 @@ OK line, and the numbers still count as returned for freshness.
   it *pulldown*. Out of band at 14:00 is a different thing from catching up
   at 08:30.
 - 🔴 one sentinel out of band > 2 h in steady state, or ≥ 2 sentinels in the
-  same building. 🟡 a single brief breach or a slow pulldown. On any finding,
+  same building. 🟡 a single brief breach or a slow pulldown.
+- **Depth ladder, on top of the above:** within **2 °F of the band edge** is
+  🟡 / `MINOR` however long it lasts — say "worsening in duration" if it is.
+  🔴 / `SEVERE` needs **≥ 3 °F beyond the band** (the 09/22 AHU-J2-5 space at
+  61–70 F against a 70.5 floor qualifies; a 76 F reading against a 74.5 ceiling
+  does not) or a ≥ 3 °F change against the zone's own previous days. On any finding,
   expand into that unit or zone and say what you found — one warm sensor and a
   unit that did not cool are different conversations.
 - ⚠️ At Bldg J the space sensor is one per unit, not per zone. Say *"the space
@@ -1078,7 +1120,17 @@ Then, on RUNNING buckets only:
   → 🟡 WATCH, by unit and circuit. **A finding on the second consecutive
   visit to that unit** (one week later) → 🔴, hand to the PdM by name.
   ⚠️ **Compare only buckets in which BOTH circuits are RUNNING (lift > 5.0 °F
-  in that same hour).** An hourly bucket is a mean; a circuit that cycles on
+  in that same hour) — and RUNNING means STEADY, not cycling.** You cannot see
+  inside an hourly mean, so use the rule of thumb that caught the 09/25 false
+  imbalance: a circuit whose condensing temperature on the reported day alternates
+  between the idle band (near the loop, 77–80 F) and the running band (88–92 F)
+  from hour to hour, or whose sibling holds 90 F while it reads 82–86 F, is
+  CYCLING. Its hourly mean is a blend of on and off and its "approach" is
+  meaningless. AHU-J2-5 circuit 2 has cycled every visit since 09/17 while
+  circuit 3 runs steady; every "circuit 3 runs 4–6 F hot vs circuit 2" finding
+  on that unit has been this artefact. Report `circuit 2 cycling, circuit 3
+  steady` in the plant bullet, no colour, no dispatch, and compute 3a only on
+  hours where both circuits sit in the running band. An hourly bucket is a mean; a circuit that cycles on
   and off inside the hour reads a low CondSat and a falsely low approach. On
   09/17/2026 J2-5 circuit 2 alternated 78–90 °F hour to hour while circuit 3
   held 90 °F; that is **cycling**, not imbalance. Report cycling as its own
